@@ -5,10 +5,43 @@ body {
   background-color: Ivory;
 }
 
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li{
+  display: inline;
+}
+
+#navigation a {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
 h1, h2 {
   font-family: 'Oswald', 'serif';
 }
 
 img{
   float: left;
+}
+
+.left {
+  float: left;
+  width: 300px;
+  padding: 1em;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 1em;
+}
+
+.center {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 1em;
 }
